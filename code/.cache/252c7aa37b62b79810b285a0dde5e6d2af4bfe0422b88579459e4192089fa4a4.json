@@ -1,0 +1,41 @@
+{
+  "images": [
+    {
+      "image_id": "img_1",
+      "shows_claimed_object": true,
+      "object_part_visible": "screen",
+      "angle_inspectable": true,
+      "visible_issue_type": "none",
+      "quality_flags": [
+        "damage_not_visible"
+      ],
+      "embedded_text_present": true,
+      "looks_manipulated": false,
+      "relevant": true
+    },
+    {
+      "image_id": "img_2",
+      "shows_claimed_object": true,
+      "object_part_visible": "screen",
+      "angle_inspectable": true,
+      "visible_issue_type": "glass_shatter",
+      "quality_flags": [],
+      "embedded_text_present": false,
+      "looks_manipulated": false,
+      "relevant": true
+    }
+  ],
+  "synthesis": {
+    "object_consistent_across_images": false,
+    "best_supporting_image_ids": [
+      "img_2"
+    ],
+    "visible_issue_type": "glass_shatter",
+    "object_part": "screen",
+    "severity": "high",
+    "claimed_issue_type": "crack",
+    "claimed_object_part": "screen",
+    "valid_image": true,
+    "free_text_reason": "img_1 shows an intact, undamaged laptop displaying a setup screen with no visible damage, while img_2 shows a different laptop model with a severely shattered screen. The two images appear to be different physical objects, so object consistency is False."
+  }
+}

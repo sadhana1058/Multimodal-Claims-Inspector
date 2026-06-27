@@ -1,0 +1,30 @@
+{
+  "images": [
+    {
+      "image_id": "img_1",
+      "shows_claimed_object": true,
+      "object_part_visible": "keyboard",
+      "angle_inspectable": true,
+      "visible_issue_type": "none",
+      "quality_flags": [
+        "damage_not_visible"
+      ],
+      "embedded_text_present": true,
+      "looks_manipulated": false,
+      "relevant": true
+    }
+  ],
+  "synthesis": {
+    "object_consistent_across_images": true,
+    "best_supporting_image_ids": [
+      "img_1"
+    ],
+    "visible_issue_type": "none",
+    "object_part": "keyboard",
+    "severity": "none",
+    "claimed_issue_type": "water_damage",
+    "claimed_object_part": "keyboard",
+    "valid_image": true,
+    "free_text_reason": "img_1 clearly shows the laptop keyboard at an inspectable angle, but no liquid damage, staining, or moisture is visible; the claimed coffee/liquid damage cannot be confirmed from this image. The only text present is product branding (Legion, XDA watermark), not an instruction."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "images": [
+    {
+      "image_id": "img_1",
+      "shows_claimed_object": true,
+      "object_part_visible": "front_bumper",
+      "angle_inspectable": false,
+      "visible_issue_type": "none",
+      "quality_flags": [
+        "damage_not_visible",
+        "non_original_image"
+      ],
+      "embedded_text_present": true,
+      "looks_manipulated": false,
+      "relevant": false
+    },
+    {
+      "image_id": "img_2",
+      "shows_claimed_object": true,
+      "object_part_visible": "front_bumper",
+      "angle_inspectable": true,
+      "visible_issue_type": "scratch",
+      "quality_flags": [],
+      "embedded_text_present": false,
+      "looks_manipulated": false,
+      "relevant": true
+    },
+    {
+      "image_id": "img_3",
+      "shows_claimed_object": true,
+      "object_part_visible": "headlight",
+      "angle_inspectable": true,
+      "visible_issue_type": "none",
+      "quality_flags": [
+        "damage_not_visible",
+        "non_original_image"
+      ],
+      "embedded_text_present": false,
+      "looks_manipulated": false,
+      "relevant": false
+    }
+  ],
+  "synthesis": {
+    "object_consistent_across_images": false,
+    "best_supporting_image_ids": [
+      "img_2"
+    ],
+    "visible_issue_type": "scratch",
+    "object_part": "front_bumper",
+    "severity": "low",
+    "claimed_issue_type": "scratch",
+    "claimed_object_part": "front_bumper",
+    "valid_image": true,
+    "free_text_reason": "img_2 clearly shows low-severity scuff scratches on the white front bumper near the wheel, consistent with the bumper damage claim. img_1 (a moving Maruti SUV with plate MH03EF0799) and img_3 (a different car's illuminated headlight, no visible damage) appear to be stock/non-original images and show no claimed headlight damage, so they do not support the claim."
+  }
+}

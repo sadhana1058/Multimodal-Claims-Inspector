@@ -1,0 +1,41 @@
+{
+  "images": [
+    {
+      "image_id": "img_1",
+      "shows_claimed_object": true,
+      "object_part_visible": "windshield",
+      "angle_inspectable": true,
+      "visible_issue_type": "crack",
+      "quality_flags": [],
+      "embedded_text_present": false,
+      "looks_manipulated": false,
+      "relevant": true
+    },
+    {
+      "image_id": "img_2",
+      "shows_claimed_object": true,
+      "object_part_visible": "windshield",
+      "angle_inspectable": false,
+      "visible_issue_type": "none",
+      "quality_flags": [
+        "damage_not_visible"
+      ],
+      "embedded_text_present": false,
+      "looks_manipulated": false,
+      "relevant": true
+    }
+  ],
+  "synthesis": {
+    "object_consistent_across_images": true,
+    "best_supporting_image_ids": [
+      "img_1"
+    ],
+    "visible_issue_type": "crack",
+    "object_part": "windshield",
+    "severity": "high",
+    "claimed_issue_type": "glass_shatter",
+    "claimed_object_part": "windshield",
+    "valid_image": true,
+    "free_text_reason": "img_1 clearly shows multiple impact points and spreading cracks across the windshield consistent with stone damage, supporting the claim. img_2 shows the cabin interior with an intact-looking windshield view and does not display the claimed damage."
+  }
+}

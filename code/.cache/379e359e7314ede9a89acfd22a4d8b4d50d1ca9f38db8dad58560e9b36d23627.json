@@ -1,0 +1,45 @@
+{
+  "images": [
+    {
+      "image_id": "img_1",
+      "shows_claimed_object": true,
+      "object_part_visible": "side_mirror",
+      "angle_inspectable": true,
+      "visible_issue_type": "none",
+      "quality_flags": [
+        "low_light_or_glare"
+      ],
+      "embedded_text_present": false,
+      "looks_manipulated": false,
+      "relevant": true
+    },
+    {
+      "image_id": "img_2",
+      "shows_claimed_object": true,
+      "object_part_visible": "body",
+      "angle_inspectable": false,
+      "visible_issue_type": "none",
+      "quality_flags": [
+        "wrong_angle",
+        "cropped_or_obstructed",
+        "damage_not_visible"
+      ],
+      "embedded_text_present": false,
+      "looks_manipulated": false,
+      "relevant": false
+    }
+  ],
+  "synthesis": {
+    "object_consistent_across_images": false,
+    "best_supporting_image_ids": [
+      "img_1"
+    ],
+    "visible_issue_type": "none",
+    "object_part": "side_mirror",
+    "severity": "none",
+    "claimed_issue_type": "missing_part",
+    "claimed_object_part": "side_mirror",
+    "valid_image": false,
+    "free_text_reason": "The claim concerns a missing/broken side mirror, but img_1 shows a full side profile of a grey SUV with the side mirror appearing intact, and img_2 is a close-up of a different vehicle's wheel/tire that does not show the mirror at all. The images appear to be of different objects and stock-style product shots, so the claimed damage cannot be confirmed."
+  }
+}

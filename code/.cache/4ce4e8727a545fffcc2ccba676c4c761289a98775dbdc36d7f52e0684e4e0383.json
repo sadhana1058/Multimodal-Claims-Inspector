@@ -1,0 +1,52 @@
+{
+  "images": [
+    {
+      "image_id": "img_1",
+      "shows_claimed_object": true,
+      "object_part_visible": "door",
+      "angle_inspectable": true,
+      "visible_issue_type": "dent",
+      "quality_flags": [],
+      "embedded_text_present": false,
+      "looks_manipulated": false,
+      "relevant": true
+    },
+    {
+      "image_id": "img_2",
+      "shows_claimed_object": true,
+      "object_part_visible": "rear_bumper",
+      "angle_inspectable": true,
+      "visible_issue_type": "broken_part",
+      "quality_flags": [],
+      "embedded_text_present": false,
+      "looks_manipulated": false,
+      "relevant": true
+    },
+    {
+      "image_id": "img_3",
+      "shows_claimed_object": true,
+      "object_part_visible": "rear_bumper",
+      "angle_inspectable": true,
+      "visible_issue_type": "dent",
+      "quality_flags": [],
+      "embedded_text_present": false,
+      "looks_manipulated": false,
+      "relevant": true
+    }
+  ],
+  "synthesis": {
+    "object_consistent_across_images": true,
+    "best_supporting_image_ids": [
+      "img_1",
+      "img_2",
+      "img_3"
+    ],
+    "visible_issue_type": "dent",
+    "object_part": "door",
+    "severity": "medium",
+    "claimed_issue_type": "dent",
+    "claimed_object_part": "door",
+    "valid_image": true,
+    "free_text_reason": "img_1 clearly shows a dent on the yellow car's door, while img_2 and img_3 show damage to the rear bumper (detached/broken section and dented/scuffed area), supporting both claimed issues on the same vehicle."
+  }
+}

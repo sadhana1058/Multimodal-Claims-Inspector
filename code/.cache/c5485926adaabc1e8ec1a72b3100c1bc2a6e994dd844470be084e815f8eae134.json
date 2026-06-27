@@ -1,0 +1,46 @@
+{
+  "images": [
+    {
+      "image_id": "img_1",
+      "shows_claimed_object": true,
+      "object_part_visible": "door",
+      "angle_inspectable": false,
+      "visible_issue_type": "dent",
+      "quality_flags": [
+        "claim_mismatch",
+        "wrong_object_part"
+      ],
+      "embedded_text_present": false,
+      "looks_manipulated": false,
+      "relevant": false
+    },
+    {
+      "image_id": "img_2",
+      "shows_claimed_object": false,
+      "object_part_visible": "front_bumper",
+      "angle_inspectable": false,
+      "visible_issue_type": "none",
+      "quality_flags": [
+        "wrong_object",
+        "claim_mismatch",
+        "non_original_image"
+      ],
+      "embedded_text_present": false,
+      "looks_manipulated": false,
+      "relevant": false
+    }
+  ],
+  "synthesis": {
+    "object_consistent_across_images": false,
+    "best_supporting_image_ids": [
+      "img_1"
+    ],
+    "visible_issue_type": "dent",
+    "object_part": "door",
+    "severity": "low",
+    "claimed_issue_type": "dent",
+    "claimed_object_part": "rear_bumper",
+    "valid_image": false,
+    "free_text_reason": "img_1 shows a silver car with a dent along the side door/quarter panel, not the claimed rear bumper. img_2 is a different vehicle (a dark SUV with a bull-bar, appears to be a stock photo) and is unrelated to the claim, so the image set does not support a rear bumper dent claim."
+  }
+}

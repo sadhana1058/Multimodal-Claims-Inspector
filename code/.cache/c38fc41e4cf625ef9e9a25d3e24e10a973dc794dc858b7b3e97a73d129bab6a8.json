@@ -1,0 +1,28 @@
+{
+  "images": [
+    {
+      "image_id": "img_1",
+      "shows_claimed_object": true,
+      "object_part_visible": "windshield",
+      "angle_inspectable": true,
+      "visible_issue_type": "crack",
+      "quality_flags": [],
+      "embedded_text_present": false,
+      "looks_manipulated": false,
+      "relevant": true
+    }
+  ],
+  "synthesis": {
+    "object_consistent_across_images": true,
+    "best_supporting_image_ids": [
+      "img_1"
+    ],
+    "visible_issue_type": "crack",
+    "object_part": "windshield",
+    "severity": "high",
+    "claimed_issue_type": "crack",
+    "claimed_object_part": "windshield",
+    "valid_image": true,
+    "free_text_reason": "img_1 shows the car's windshield from the interior with a large spider-web crack radiating from a central impact point, consistent with the claimed windshield crack."
+  }
+}

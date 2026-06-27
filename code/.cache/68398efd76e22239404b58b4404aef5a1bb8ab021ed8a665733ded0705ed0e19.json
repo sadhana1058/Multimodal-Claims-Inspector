@@ -1,0 +1,32 @@
+{
+  "images": [
+    {
+      "image_id": "img_1",
+      "shows_claimed_object": true,
+      "object_part_visible": "hood",
+      "angle_inspectable": false,
+      "visible_issue_type": "unknown",
+      "quality_flags": [
+        "blurry_image",
+        "non_original_image",
+        "damage_not_visible"
+      ],
+      "embedded_text_present": true,
+      "looks_manipulated": false,
+      "relevant": true
+    }
+  ],
+  "synthesis": {
+    "object_consistent_across_images": true,
+    "best_supporting_image_ids": [
+      "img_1"
+    ],
+    "visible_issue_type": "unknown",
+    "object_part": "hood",
+    "severity": "unknown",
+    "claimed_issue_type": "dent",
+    "claimed_object_part": "hood",
+    "valid_image": false,
+    "free_text_reason": "img_1 is blurry and bears a 'dreamstime' stock-photo watermark, indicating it is a non-original image; the hood is visible but the claimed hail dents cannot be reliably assessed due to blur and the image's questionable origin."
+  }
+}

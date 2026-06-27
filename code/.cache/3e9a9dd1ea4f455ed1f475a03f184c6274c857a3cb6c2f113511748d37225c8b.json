@@ -1,0 +1,30 @@
+{
+  "images": [
+    {
+      "image_id": "img_1",
+      "shows_claimed_object": true,
+      "object_part_visible": "headlight",
+      "angle_inspectable": false,
+      "visible_issue_type": "dent",
+      "quality_flags": [
+        "claim_mismatch"
+      ],
+      "embedded_text_present": false,
+      "looks_manipulated": false,
+      "relevant": false
+    }
+  ],
+  "synthesis": {
+    "object_consistent_across_images": true,
+    "best_supporting_image_ids": [
+      "img_1"
+    ],
+    "visible_issue_type": "dent",
+    "object_part": "headlight",
+    "severity": "high",
+    "claimed_issue_type": "crack",
+    "claimed_object_part": "taillight",
+    "valid_image": true,
+    "free_text_reason": "img_1 shows the front of a blue car with significant damage (dents and broken parts) around the front headlight and bumper, but the customer claims a cracked taillight. The claimed taillight is not visible in this image, so the visible damage does not match the claim."
+  }
+}
